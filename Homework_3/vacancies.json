@@ -1,0 +1,32 @@
+[
+    {
+        "Company": "АО НИИ МАСШТАБ",
+        "City": "Санкт-Петербург",
+        "Salary": "100 000 – 150 000 ₽",
+        "link": "https://spb.hh.ru/vacancy/92841279?query=python&hhtmFrom=vacancy_search_list"
+    },
+    {
+        "Company": "Sapiens solutions",
+        "City": "Москва",
+        "Salary": "250 000 – 350 000 ₽",
+        "link": "https://spb.hh.ru/vacancy/91187726?query=python&hhtmFrom=vacancy_search_list"
+    },
+    {
+        "Company": "STC",
+        "City": "Москва",
+        "Salary": "Не указана",
+        "link": "https://spb.hh.ru/vacancy/92826312?query=python&hhtmFrom=vacancy_search_list"
+    },
+    {
+        "Company": "Diasoft",
+        "City": "Москва",
+        "Salary": "Не указана",
+        "link": "https://spb.hh.ru/vacancy/91314476?query=python&hhtmFrom=vacancy_search_list"
+    },
+    {
+        "Company": "ООО Отус",
+        "City": "Москва",
+        "Salary": "до 240 000 ₽",
+        "link": "https://spb.hh.ru/vacancy/92277744?query=python&hhtmFrom=vacancy_search_list"
+    }
+]
