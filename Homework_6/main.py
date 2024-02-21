@@ -26,7 +26,6 @@ def sorted_corses(courses: list, mentors: list, durations: list) -> list:
         durations_dict.setdefault(key, [])
         durations_dict[key].append(id)
 
-  
     durations_dict = dict(sorted(durations_dict.items()))
 
     sorted_courses = []
