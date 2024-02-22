@@ -1,5 +1,6 @@
 import pytest
 
+
 @pytest.fixture
 def data_prep_1():
     from data_for_tests import courses_1, mentors_1, durations_1, expected_1
