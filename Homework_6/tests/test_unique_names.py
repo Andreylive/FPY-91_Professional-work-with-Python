@@ -1,5 +1,3 @@
-import sys
-sys.path.append('/Users/andrei/Desktop/Андрей/1. Образование/7. Fullstack разработчик (Нетология)/6. Профессиональна работа с Python/Домашняя работа для Git/Homework_6')
 from main import unique_names
 
 
