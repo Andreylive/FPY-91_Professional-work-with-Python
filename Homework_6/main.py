@@ -1,4 +1,8 @@
+import requests
+
+
 def unique_names(mentors: list) -> str:
+    """Function to find mentors' unique names"""
     all_names = []
 
     [all_names.extend(m) for m in mentors]
@@ -14,6 +18,7 @@ def unique_names(mentors: list) -> str:
 
 
 def sorted_corses(courses: list, mentors: list, durations: list) -> list:
+    """Function to sort courses by duration"""
     courses_list = []
     for course, mentor, duration in zip(courses, mentors, durations):
         course_dict = {"title": course,
@@ -42,6 +47,7 @@ def sorted_corses(courses: list, mentors: list, durations: list) -> list:
 
 
 def shortest_longest_courses(courses: list, durations: list) -> list:
+    """Function to find shortest and longest courses courses"""
     courses_list = []
 
     for title, duration in zip(courses, durations):
@@ -73,3 +79,17 @@ def shortest_longest_courses(courses: list, durations: list) -> list:
         courses_max.append(courses_list[id].get('title'))
 
     return courses_min, courses_max
+
+
+def create_yandex_dick_folder(token: str, folder_name: str) -> int:
+    """Function to create a folder on Yandex disk"""
+
+    headers = {
+        'Authorization': token
+    }
+
+    params = {'path': folder_name}
+    response = requests.put('https://cloud-api.yandex.net/v1/disk/resources',
+                            params=params,
+                            headers=headers)
+    return response.status_code
