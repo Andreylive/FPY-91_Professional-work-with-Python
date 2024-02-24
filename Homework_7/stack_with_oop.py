@@ -1,7 +1,9 @@
 from class_stack import Stack
+# Solution to check if string is balanced using OOP"
 
 
 def check_balance(input: str) -> str:
+    """ Function to check if sting is balanced"""
     flag = True
     stack_object = Stack()
 

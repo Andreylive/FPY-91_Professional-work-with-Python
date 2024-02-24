@@ -1,3 +1,5 @@
+# Solution to check if string is balanced without OOP"
+
 input = '((())'
 
 stack = '('
