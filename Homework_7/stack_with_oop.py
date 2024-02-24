@@ -29,5 +29,9 @@ def check_balance(input: str) -> str:
     return 'Несбалансировано'
 
 
-check_balance = check_balance('((())')
-print(check_balance)
+if __name__ == "__main__":
+    string = "((([{}])))"
+    print(check_balance(string))
+
+    string = "}{}"
+    print(check_balance(string))
